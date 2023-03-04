@@ -6,7 +6,7 @@ import "../styles/Macarons.css";
 function Macarons() {
     return (
         <div className="macaron">
-            <h1 className="macaronTitle">Flavors</h1>
+            <h1 className="macaronTitle">Speciality Flavors</h1>
             <div className="macaronList">
                 {MacaronList.map((macaronItem, key) => {
                     return (
