@@ -10,6 +10,7 @@ function Navbar() {
   const toggleNavbar = () => {
     setOpenLinks(!openLinks);
   };
+
   return (
     <div className="navbar">
       <div className="leftSide" id={openLinks ? "open" : "close"}>
@@ -26,8 +27,8 @@ function Navbar() {
           <Link to="/contact"> Contact </Link>
         </div>
       </div>
-      <div className="rightSide">
 
+      <div className="rightSide">
         <Link to="/macarons"> Macarons </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>

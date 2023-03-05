@@ -1,7 +1,8 @@
 import React from "react";
-import {MacaronList} from "../array/MacaronList";
+import {MacaronList} from "../products/MacaronList";
 import MacaronItem from "../components/MacaronItem";
 import "../styles/Macarons.css";
+import {Link} from "react-router-dom";
 
 function Macarons() {
     return (
@@ -19,6 +20,7 @@ function Macarons() {
                     );
                 })}
             </div>
+            <h4>Je kunt ook <Link to="/signin">Inloggen</Link> of jezelf <Link to="/signup">Registreren</Link> als je nog geen account hebt.</h4>
         </div>
     );
 }

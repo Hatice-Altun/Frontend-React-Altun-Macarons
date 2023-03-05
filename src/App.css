@@ -10,3 +10,27 @@ body {
   padding: 0;
   margin: 0;
 }
+
+h4 {
+  font-family: 'PT Serif', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+  color: #80699d;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;
+}
+
+a,
+a:visited,
+a:active {
+  color: #ea1f44;
+  text-decoration: none;
+  margin-right: 7px;
+  margin-left: 7px;
+}
+
+a:hover {
+  color: #80699d;
+}

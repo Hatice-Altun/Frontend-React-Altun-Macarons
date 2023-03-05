@@ -1,9 +1,11 @@
 import React from "react";
 import macaronsleft from "../assets/macaron12.jpg";
 import "../styles/Contact.css";
+import {Link} from "react-router-dom";
 
 function Contact() {
     return (
+        <>
         <div className="contact">
             <div
                 className="leftSide"
@@ -28,6 +30,10 @@ function Contact() {
                 </form>
             </div>
         </div>
+    <h4>Je kunt ook <Link to="/signin">Inloggen</Link> of jezelf <Link to="/signup">Registreren</Link>
+        als je nog geen account hebt.</h4>
+        </>
+
     );
 }
 
