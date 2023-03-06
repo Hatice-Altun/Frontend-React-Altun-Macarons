@@ -1,5 +1,5 @@
 import React from "react";
-import about from "../assets/macaronAbout.jpg";
+import about from "../assets/macaronFrench.jpg";
 import "../styles/About.css";
 import {Link} from "react-router-dom";
 

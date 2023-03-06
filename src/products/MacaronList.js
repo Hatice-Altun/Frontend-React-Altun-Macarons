@@ -4,6 +4,9 @@ import ChocolateCherry from "../assets/macaronChocolateCherry.jpg";
 import Pistachio from "../assets/macaronPistachio.jpg";
 import Lime from "../assets/macaronLime.jpg";
 import Peach from "../assets/macaronPeach.jpg";
+import French from "../assets/macaronFrench.jpg";
+import Caramel from "../assets/macaronCaramel.jpg";
+import Cheesecake from "../assets/macaronCheesecake.jpg";
 
 export const MacaronList = [
     {
@@ -27,13 +30,28 @@ export const MacaronList = [
         price: 2.00,
     },
     {
+        name: "Macaron Peach",
+        image: Peach,
+        price: 2.00,
+    },
+    {
+        name: "Macaron French",
+        image: French,
+        price: 2.00,
+    },
+    {
+        name: "Macaron Cheesecake",
+        image: Cheesecake,
+        price: 2.00,
+    },
+    {
         name: "Macaron Lime",
         image: Lime,
         price: 2.00,
     },
     {
-        name: "Macaron Peach",
-        image: Peach,
+        name: "Macaron Caramel",
+        image: Caramel,
         price: 2.00,
     },
 ];
