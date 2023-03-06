@@ -7,6 +7,9 @@ import Peach from "../assets/macaronPeach.jpg";
 import French from "../assets/macaronFrench.jpg";
 import Caramel from "../assets/macaronCaramel.jpg";
 import Cheesecake from "../assets/macaronCheesecake.jpg";
+import Vanilla from "../assets/macaronVanilla.jpg";
+import Nutella from "../assets/macaronNutella.jpg";
+import FrenchGlutenFree from "../assets/macaronFrenchGlutenFree.jpg"
 
 export const MacaronList = [
     {
@@ -54,4 +57,20 @@ export const MacaronList = [
         image: Caramel,
         price: 2.00,
     },
+    {
+        name: "Macaron Nutella",
+        image: Nutella,
+        price: 2.00,
+    },
+    {
+        name: "Macaron Vanilla",
+        image: Vanilla,
+        price: 2.00,
+    },
+    {
+        name: "Macaron French Gluten-Free",
+        image: FrenchGlutenFree,
+        price: 2.00,
+    },
+
 ];

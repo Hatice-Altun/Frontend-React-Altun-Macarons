@@ -1,28 +1,31 @@
 import React from "react";
-import about from "../assets/macaronFrench.jpg";
 import "../styles/About.css";
-import {Link} from "react-router-dom";
+import macaronRight from "../assets/aboutUS.jpg";
+
 
 function About() {
     return (
-        <div className="about">
-            <div
-                className="aboutTop"
-                style={{backgroundImage: `url(${about})`}}
-            ></div>
-            <div className="aboutBottom">
-                <h1> ABOUT US</h1>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
-                    mollitia, molestiae quas vel sint commodi repudiandae consequuntur
-                    voluptatum laborum numquam blanditiis harum quisquam eius sed odit
-                    fugiat iusto fuga praesentium optio, eaque rerum! Provident similique
-                    accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut
-
-                </p>
+        <>
+            <div className="about">
+                <div className="leftSide">
+                    <h1>About Us</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus, eligendi, perspiciatis. Alias
+                        amet aperiam aut corporis cupiditate dolorem doloremque ea eius eos esse exercitationem
+                        explicabo id illo in iste maiores maxime neque nostrum odit pariatur porro quasi quia, quo quos
+                        recusandae repellat sint sit suscipit tempora voluptatum. Aliquid aut commodi cumque doloremque
+                        eius, fugiat hic in inventore laborum necessitatibus non, obcaecati perspiciatis praesentium
+                        iam, veritatis? Deleniti dolorem dolores dolorum, eos est et excepturi explicabo incidunt inventore iste minima, nam nobis numquam omnis
+                        pariatur perspiciatis quae quisquam quo ratione recusandae reiciendis repellat rerum sapiente
+                        similique sit soluta suscipit, tempora ut voluptatem voluptatibus. Aliquid cumque expedita
+                        magnam natus odit perspiciatis quas unde. Eius, modi, molestias! Corporis deleniti excepturi hic
+                        illum numquam.</p>
+                </div>
+                <div
+                    className="rightSide"
+                    style={{backgroundImage: `url(${macaronRight})`}}>
+                </div>
             </div>
-            <h4>Je kunt ook <Link to="/signin">Inloggen</Link> of jezelf <Link to="/signup">Registreren</Link> als je nog geen account hebt.</h4>
-        </div>
+        </>
     );
 }
 
