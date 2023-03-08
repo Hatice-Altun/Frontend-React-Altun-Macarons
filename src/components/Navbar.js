@@ -22,6 +22,7 @@ function Navbar() {
         </Link>
 
         <div className="hiddenLinks">
+          <Link to="/"> Home </Link>
           <Link to="/macarons"> Macarons </Link>
           <Link to="/about"> About </Link>
           <Link to="/contact"> Contact </Link>
@@ -29,6 +30,7 @@ function Navbar() {
       </div>
 
       <div className="rightSide">
+        <Link to="/"> Home </Link>
         <Link to="/macarons"> Macarons </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
