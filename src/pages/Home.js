@@ -4,6 +4,7 @@ import BannerImage from "../assets/macaron.jpg";
 import "../styles/Home.css";
 import Macarons from "./Macarons";
 import Contact from "./Contact";
+import About from "./About";
 
 function Home() {
     return (
@@ -19,7 +20,8 @@ function Home() {
             <h4>Je kunt ook <Link to="/signin">Inloggen</Link> of jezelf <Link to="/signup">Registreren</Link>
                 als je nog geen account hebt.</h4>
             <Macarons/>
-            <Contact/>
+            <About />
+            <Contact />
         </>
     );
 }

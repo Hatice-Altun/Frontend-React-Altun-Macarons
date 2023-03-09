@@ -7,7 +7,7 @@ import {Link} from "react-router-dom";
 function Macarons() {
     return (
         <div className="macaron">
-            <h1 className="macaronTitle">Speciality Flavors</h1>
+            <h1 className="macaronTitle">Special Flavors</h1>
             <div className="macaronList">
                 {MacaronList.map((macaronItem, key) => {
                     return (
